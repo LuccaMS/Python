@@ -1,7 +1,7 @@
 # Python
 That is a backend project using the python Library "Flask" and a few cryptographic libraries
 You can use the command below to install all requirements to be able to run the project.
-# pip3 install requirements.txt
+# pip3 install -r requirements.txt
 
 # Warning : That project has 2 branches, which one of them contains different methods and routes
 
