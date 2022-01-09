@@ -17,3 +17,13 @@ Main page where you can select the file that you want to upload.
 
 The hash that the server will return to you, you can click in the button to return to the first page and keep using the site :)
 
+# Part 2
+The second part of the code is used to generate either a 1024 or 2048 RSA keys , you have 3 routes to work with, the main one is the home '/' that will contain two buttons, one to generate a 1024 and the other a 2048 key, both are using the public_exponent 65537 , keep in mind that the public key is being written in a file called key.pem
+
+![image](https://user-images.githubusercontent.com/64712028/148701558-e0c2ea32-05e6-4827-9990-4df4f23ceb4e.png)
+
+Main area
+
+![image](https://user-images.githubusercontent.com/64712028/148701562-f44d288c-6847-4ec8-b711-eb479dfa54a9.png)
+
+Generated key
