@@ -1,7 +1,7 @@
 # Python
 That is a backend project using the python Library "Flask" and a few cryptographic libraries
 
-# Warning : That project has 2 branches, which one of them contains different methods and routes and has it own propurse
+# Warning : That project has 2 branches, which one of them contains different methods and routes
 
 #Part 1
 
