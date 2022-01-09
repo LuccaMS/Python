@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: cadetblue;
+            margin: 0 auto;
+            padding: 5px;
+            display : flex;
+            flex-direction: column;
+        }
+
+        .container a {
+            color: black;
+            text-decoration: none;
+            padding: 5px;
+            margin: 5px;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      {% if message %}
+      <a>{{message}}</a>
+      {% else %}
+      <a>key não recebida</a>
+      {% endif %}
+      <!-- Aqui encima estamos verificando se o hash 256 foi de fato recebido do endpoint /sha-256 para exibir para o usuário  -->
+
+      <a href="/">
+        <input value="Voltar" type="submit" />
+      </a>
+
+      <!-- Aqui é um simples botão para redirecionar a página principal onde o usuário pode upar outro arquivo novamente  -->
+    </div>
+  </body>
+</html>
